@@ -5,15 +5,22 @@
 }
 
 #name {
-	line-height: 1px;
+	word-wrap: normal;
+	/*line-height: 1px;*/
 }
 
 #screenname {
+	line-height: 1px;
 	color: grey;
 }
 
 .media-heading {
 	display: inline;
+}
+
+.follow-name {
+	color: grey;
+	line-height: 1px;
 }
 
 .nav-pills-custom>li>a {
@@ -31,6 +38,48 @@
 	border-bottom: none;
 }
 
+.col-sm-3 ~ .col-sm-3 {
+	float: left;
+	margin-left: 0;
+	padding-left: 0;
+}
+
+.col-left{
+	float:right;
+}
+
+.container {
+	width: 100%;
+}
+
+.nofix {
+	position: default;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+.fix {
+	position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+#menu {
+	position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+.placeholder {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+}
+
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
 	background-color: #337AB7;
 }
@@ -44,7 +93,7 @@ body{
 	background-color: #F0FFFF;
 }
 .navbar-default .navbar-collapse, .navbar-default{
-background-color: white;
+	background-color: white;	
 }
 .panel-footer{
 	background-color: lightcyan;
