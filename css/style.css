@@ -1,3 +1,7 @@
+.glyphicon-home:before{
+	content:"\e021"
+}
+
 .indent {
 	margin-left: 50px;
 }
